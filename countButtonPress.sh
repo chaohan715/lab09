@@ -16,4 +16,6 @@ while test $i -eq 15; do
   ./setbits.sh $i
   sleep 0.25
 done
+gpio write 4 1
+sleep 1
 ./initMode.sh
