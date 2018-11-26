@@ -8,4 +8,5 @@ while true; do
   else
     echo "Button is Pressed"
     sleep 1
+  fi
 done
