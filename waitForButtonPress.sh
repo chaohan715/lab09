@@ -7,6 +7,5 @@ while test $i -eq 1; do
   while test $i -eq 0; do
     i=$(gpio read 5)
     echo "Button Pressed"
-    sleep 0.25
   done
 done
