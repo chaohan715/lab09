@@ -12,5 +12,6 @@ while test $i -le 15; do
 done
 gpio write 4 1
 sleep 1
+echo "Error will occur after 15 button press, program will terminate now"
 ./initMode.sh
 
